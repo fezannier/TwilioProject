@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+	font-family:"Helvetica", Times, serif;
+}
+
+#thewall{
+	position : relative;
+	width : 300px;
+	margin-left : auto;
+        margin-right : auto;
+}
+
+.paragraph{
+	position : relative;
+	width : 300px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.name{
+	vertical-align : text-top;
+	position : relative;
+	width : 100px;
+	float : left;
+	font-weight:bold;
+	font-size: 14px;
+	color: orange;
+}
+
+.message{
+	position : relative;
+	width : 200px;
+	float : right;
+	font-size: 14px;
+        color: gray;
+}
